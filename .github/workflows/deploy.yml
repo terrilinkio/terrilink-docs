@@ -1,0 +1,46 @@
+name: Deploy docs to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-docs
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git for mike
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Deploy version "latest" via mike
+        # Phase 1 : on déploie tout sur l'alias "latest" pour faire vivre le pipeline.
+        # Quand la plateforme atteindra V1.1, on basculera vers :
+        #   mike deploy --push --update-aliases 1.1 latest
+        run: |
+          mike deploy --push --update-aliases 1.0 latest
+          mike set-default --push latest

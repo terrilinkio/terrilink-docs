@@ -1,0 +1,44 @@
+/* Documentation Terrilink — surcharges légères du thème Material */
+
+/* Largeur du contenu un peu plus généreuse pour les tableaux denses */
+.md-grid {
+  max-width: 1280px;
+}
+
+/* Tableaux : alternance de couleurs pour lisibilité */
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+/* Admonitions : padding latéral un peu plus aéré */
+.md-typeset .admonition,
+.md-typeset details {
+  padding: 0.6rem 1rem;
+}
+
+/* Code inline : ne pas casser sur les URLs longues */
+.md-typeset code {
+  word-break: keep-all;
+}
+
+/* Cartes de navigation sur l'index : effet survol */
+.md-typeset .grid.cards > * {
+  transition: transform 0.15s ease;
+}
+
+.md-typeset .grid.cards > *:hover {
+  transform: translateY(-2px);
+}
+
+/* Légendes des screenshots */
+.md-typeset img + em {
+  display: block;
+  text-align: center;
+  margin-top: 0.4rem;
+  font-size: 0.85em;
+  color: var(--md-default-fg-color--light);
+}
