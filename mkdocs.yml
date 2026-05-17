@@ -14,8 +14,8 @@ copyright: |
 theme:
   name: material
   language: fr
-  logo: assets/logo.svg
-  favicon: assets/favicon.png
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     - scheme: default
       primary: indigo
