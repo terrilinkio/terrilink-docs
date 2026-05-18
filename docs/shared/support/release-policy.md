@@ -42,7 +42,7 @@ Nous maintenons la version courante et la version précédente avec correctifs d
 
 ## Roadmap publique
 
-Les grandes orientations produit sont partagées avec les clients sur demande à `produit@terrilink.io`. Une roadmap publique sera mise en ligne en version 1.1.
+Les grandes orientations produit sont partagées avec les clients sur demande à `produit@terrilink.io`. Une roadmap publique sera mise en ligne ultérieurement.
 
 ---
 

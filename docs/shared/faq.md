@@ -18,7 +18,7 @@ Répondre rapidement aux questions les plus fréquentes des administrateurs et d
     Par défaut, votre session reste active 7 jours sur un même appareil. Si vous changez de navigateur, vous devrez vous reconnecter.
 
 ??? question "Puis-je me connecter avec Google ou LinkedIn ?"
-    Pas en version 1.0. La connexion par identifiants email / mot de passe est la seule méthode disponible. Le single sign-on (SSO) est prévu pour la version 1.2.
+    Pas en version 1.0. La connexion par identifiants email / mot de passe est la seule méthode disponible. Le single sign-on (SSO) est sur la roadmap.
 
 ## Gestion des membres
 
@@ -37,7 +37,7 @@ Répondre rapidement aux questions les plus fréquentes des administrateurs et d
     Vérifiez votre ciblage. Avec un ciblage trop restrictif (ex : pays + filière + promotion), il est possible qu'aucun membre ne corresponde aux critères. Voir [Publications et ciblage](../alumni/admin/publications.md) pour la sémantique OU/ET.
 
 ??? question "Puis-je programmer une publication ?"
-    La programmation de publications est prévue pour la version 1.1. En version 1.0, les publications sont diffusées immédiatement après envoi.
+    La programmation de publications est sur la roadmap. En version 1.0, les publications sont diffusées immédiatement après envoi.
 
 ??? question "Comment épingler une publication importante en tête de fil ?"
     Sur la publication, cliquez sur le menu **…** → **Épingler**. Seuls les administrateurs et modérateurs peuvent épingler. Une seule publication épinglée à la fois par réseau.

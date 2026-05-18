@@ -103,14 +103,7 @@ Profil spécifique au module Carrière premium. Compte séparé des membres, dé
 3. Sélectionner le nouveau rôle, confirmer.
 4. Le membre reçoit une notification automatique.
 
-<!-- SCREENSHOT:
-file: shared/admin/role-change-modal.png
-title: Modification du rôle d'un membre
-resolution: 1920x1080
-theme: light
-updated: à fournir
--->
-![Modal de changement de rôle](../screenshots/shared/role-change-modal.png)
+<!-- TODO capture: shared/admin/role-change-modal.png — modale de changement de rôle -->
 
 ## Points d'attention
 

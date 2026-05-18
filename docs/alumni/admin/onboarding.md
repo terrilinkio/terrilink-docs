@@ -21,16 +21,7 @@ L'onboarding administrateur intervient au **tout début** de la vie de votre ré
 
 Après la création de votre organisation par notre équipe, vous recevez un email intitulé **« Bienvenue sur \<nom-de-votre-école\> — Configurez votre mot de passe »**.
 
-<!-- SCREENSHOT:
-file: alumni/admin/01-welcome-email.png
-title: Email de bienvenue administrateur
-resolution: 1200x800
-theme: light
-updated: 2026-05-16
--->
-![Email de bienvenue administrateur](../../../screenshots/alumni/admin/01-welcome-email.png)
-
-> 📸 **À capturer** : capture de l'email reçu en boîte mail, avec l'objet visible et le bouton « Configurer mon mot de passe ».
+<!-- TODO capture: alumni/admin/01-welcome-email.png — email reçu en boîte mail, objet visible, bouton "Configurer mon mot de passe" -->
 
 Cet email contient un lien personnalisé valable **24 heures**. Si vous l'ouvrez après expiration, demandez un nouveau lien via la page de connexion (« Mot de passe oublié »).
 
@@ -38,16 +29,7 @@ Cet email contient un lien personnalisé valable **24 heures**. Si vous l'ouvrez
 
 Cliquez sur le bouton **Configurer mon mot de passe**. Vous arrivez sur la page de définition du mot de passe.
 
-<!-- SCREENSHOT:
-file: alumni/admin/02-setup-password.png
-title: Écran de définition du mot de passe
-resolution: 1280x720
-theme: light
-updated: 2026-05-16
--->
-![Définition du mot de passe](../../../screenshots/alumni/admin/02-setup-password.png)
-
-> 📸 **À capturer** : le formulaire avec les deux champs (mot de passe + confirmation), les critères de complexité affichés.
+<!-- TODO capture: alumni/admin/02-setup-password.png — formulaire avec mot de passe + confirmation + critères de complexité affichés -->
 
 Votre mot de passe doit contenir :
 
@@ -62,16 +44,7 @@ Une fois validé, vous êtes automatiquement connecté(e) à votre espace admini
 
 Au premier login, un assistant vous demande de compléter votre profil personnel en trois étapes : informations personnelles, localisation et activité professionnelle, conditions générales.
 
-<!-- SCREENSHOT:
-file: alumni/admin/03-profile-wizard-step1.png
-title: Assistant profil — informations personnelles
-resolution: 1280x720
-theme: light
-updated: 2026-05-16
--->
-![Assistant de profil](../../../screenshots/alumni/admin/03-profile-wizard-step1.png)
-
-> 📸 **À capturer** : étape 1 du wizard avec le formulaire prénom/nom/email/photo et le sélecteur « Vous êtes ».
+<!-- TODO capture: alumni/admin/03-profile-wizard-step1.png — wizard étape 1 (prénom/nom/email/photo + sélecteur "Vous êtes") -->
 
 !!! tip "Conseil Terrilink"
     Renseignez votre profil avec soin : il est visible par tous les membres de votre réseau. Pour un administrateur, nous recommandons de choisir le type **Membre** (et non Étudiant ou Alumni) pour clarifier votre rôle institutionnel.
@@ -80,16 +53,7 @@ updated: 2026-05-16
 
 Une fois le profil validé, vous arrivez sur le tableau de bord administrateur.
 
-<!-- SCREENSHOT:
-file: alumni/admin/04-dashboard-overview.png
-title: Tableau de bord administrateur — vue d'ensemble
-resolution: 1920x1080
-theme: light
-updated: 2026-05-16
--->
-![Tableau de bord administrateur](../../../screenshots/alumni/admin/04-dashboard-overview.png)
-
-> 📸 **À capturer** : page d'accueil du dashboard, avec la sidebar visible, le compteur de membres, et le bandeau « Configuration incomplète » s'il est présent.
+<!-- TODO capture: alumni/admin/04-dashboard-overview.png — dashboard d'accueil (sidebar + compteur + bandeau "Configuration incomplète") -->
 
 Les éléments principaux à identifier :
 
@@ -129,16 +93,7 @@ Voir : [Rôles et permissions](../../shared/roles.md).
 - ✅ L'école de référence et au moins une filière configurées
 - ✅ Une vision claire des prochaines étapes (voir [Check-list 30 premiers jours](checklist-30-jours.md))
 
-<!-- SCREENSHOT:
-file: alumni/admin/05-dashboard-ready.png
-title: Tableau de bord après configuration initiale
-resolution: 1920x1080
-theme: light
-updated: 2026-05-16
--->
-![Tableau de bord prêt](../../../screenshots/alumni/admin/05-dashboard-ready.png)
-
-> 📸 **À capturer** : le dashboard sans bandeau d'alerte rouge, avec le logo de l'école visible.
+<!-- TODO capture: alumni/admin/05-dashboard-ready.png — dashboard sans bandeau d'alerte rouge, logo école visible -->
 
 ## Bonnes pratiques
 

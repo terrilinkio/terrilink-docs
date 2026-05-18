@@ -1,7 +1,7 @@
 site_name: Documentation Terrilink
 site_description: Documentation officielle de la plateforme Terrilink — réseaux alumni et diasporas.
 site_author: Terrilink
-site_url: https://terrilinkio.github.io/terrilink-docs/
+site_url: https://docs.terrilink.io/
 
 repo_name: terrilinkio/terrilink-docs
 repo_url: https://github.com/terrilinkio/terrilink-docs
@@ -112,6 +112,11 @@ nav:
           - diaspora/admin/chapters.md
           - diaspora/admin/country-targeting.md
           - diaspora/admin/settings.md
+  - Modules métier:
+      - shared/modules/network-radar.md
+      - shared/modules/mentorat.md
+      - shared/modules/marketplace-recruteur.md
+      - shared/modules/rcp-enquete.md
   - Modules communs:
       - Profil et authentification:
           - shared/authentication.md

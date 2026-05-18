@@ -39,8 +39,20 @@ Cette documentation s'adresse aux **administrateurs** d'une organisation cliente
 | **Accueil** | Cette page, points d'entrée | Tous |
 | **Réseaux Alumni** | Pages spécifiques aux écoles et formations | Admin alumni |
 | **Réseaux Diaspora** | Pages spécifiques aux communautés territoriales | Admin diaspora |
+| **Modules métier** | Network Radar, Mentorat, Marketplace recruteur, Enquête RNCP | Décideurs, admin |
 | **Modules communs** | Fonctionnalités partagées : profil, notifications, événements, RGPD, configuration, support | Tous administrateurs |
 | **Releases** | Notes de version de la plateforme | Tous |
+
+---
+
+## Modules métier différenciants
+
+Quatre modules constituent l'avantage structurel de Terrilink par rapport à un simple annuaire ou intranet alumni :
+
+- **[Network Radar](shared/modules/network-radar.md)** : transforme le graphe alumni en outil de prospection ciblée
+- **[Module Mentorat](shared/modules/mentorat.md)** : rend visible et activable le capital relationnel intra-réseau
+- **[Marketplace recruteur](shared/modules/marketplace-recruteur.md)** : ouvre votre réseau à des recruteurs externes payants
+- **[Enquête RNCP](shared/modules/rcp-enquete.md)** : industrialise la collecte des données d'insertion pour la conformité certification
 
 ---
 

@@ -8,33 +8,33 @@ Lister de manière transparente les limites volontaires ou techniques connues de
 
 ### Authentification
 
-- Pas de single sign-on (SSO SAML / OAuth) — prévu en version 1.2.
-- Pas de connexion par Google ou LinkedIn — non prévu pour l'instant (positionnement réseau professionnel sérieux).
+- Pas de single sign-on (SSO SAML / OAuth) — sur la roadmap.
+- Pas de connexion par Google ou LinkedIn — non prévu (positionnement réseau professionnel sérieux).
 - Sessions de 7 jours maximum sur un même appareil.
 
 ### Publications et fil d'actualités
 
-- Pas de programmation différée (publier à une date future) — prévue en version 1.1.
-- Pas de brouillons partagés à plusieurs administrateurs — prévu en version 1.2.
+- Pas de programmation différée (publier à une date future) — sur la roadmap.
+- Pas de brouillons partagés à plusieurs administrateurs — sur la roadmap.
 - Maximum 5 dimensions de ciblage simultanées par publication.
 - Pas de modification d'une publication après envoi (uniquement suppression et republication).
 
 ### Membres et permissions
 
 - Pas de rôles personnalisés au-delà des 4 rôles standards (admin / modérateur / membre / recruteur).
-- Pas de gestion par équipe (sous-administrations par département).
-- Maximum 50 000 membres par réseau en version 1.0 (limite technique levée en version 1.1).
+- Pas de gestion par équipe (sous-administrations par département) — sur la roadmap.
+- Pas de limite technique sur le nombre de membres, validé en production jusqu'à plusieurs dizaines de milliers.
 
 ### Mobile
 
-- Pas d'application mobile native (iOS / Android) — version PWA disponible, native sur la roadmap 2027.
+- Pas d'application mobile native (iOS / Android) — version PWA installable disponible, native sur la roadmap.
 - Les notifications push mobiles sont limitées aux navigateurs supportant le standard Web Push (Chrome, Edge, Firefox ; partiel sur Safari iOS).
 
 ### Intégrations
 
-- Pas d'API publique en version 1.0 — accessible aux clients Enterprise sur demande, déploiement public prévu en 1.3.
+- Pas d'API publique en version 1.0 — accessible aux clients Enterprise sur demande, ouverture publique sur la roadmap.
 - Pas de connecteur Zapier / Make en version 1.0.
-- Pas d'export en temps réel vers un CRM tiers (Salesforce, HubSpot…) — prévu via l'API publique.
+- Pas d'export en temps réel vers un CRM tiers (Salesforce, HubSpot…) — sur la roadmap, via l'API publique.
 
 ## Limitations techniques
 
